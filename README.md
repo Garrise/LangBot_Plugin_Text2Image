@@ -1,4 +1,4 @@
-# HelloPlugin
+# LangBot_Plugin_Text2Image
 
 <!--
 ## 插件开发者详阅
