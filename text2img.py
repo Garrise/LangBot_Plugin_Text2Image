@@ -92,6 +92,7 @@ async def text2img(text):
     #imgkit_config = imgkit.config(wkhtmltoimage=True)
     temp_jpg_file = NamedTemporaryFile(mode='w+b', suffix='.png')
     temp_jpg_filename = temp_jpg_file.name
+    print(temp_jpg_filename)
     temp_jpg_file.close()
     try:
         # 调用imgkit将html转为图片
@@ -101,7 +102,6 @@ async def text2img(text):
                                                                     "allow": template_folder,
                                                                     "width": Config.width,  # 图片宽度
                                                                 })
-                # 调用PIL将图片读取为 JPEG，RGB 格式
         img_base64 = base64.b64encode(open(temp_jpg_filename, 'rb').read()).decode()
         ok = True
     except Exception as e:
