@@ -28,15 +28,20 @@
 下方是给用户看的内容，按需修改
 -->
 
+## 介绍
+参考<a href="https://github.com/lss233/chatgpt-mirai-qq-bot">ChatGPT for Bot</a>的文字转图片样式，将LLM回复的消息转变成图片形式输出。
+需要安装<a href="https://wkhtmltopdf.org/">wkhtmltoimage</a>
+
 ## 安装
 
 配置完成 [LangBot](https://github.com/RockChinQ/LangBot) 主程序后使用管理员账号向机器人发送命令即可安装：
 
 ```
-!plugin get <你的插件发布仓库地址>
+!plugin get https://github.com/Garrise/LangBot_Plugin_Text2Image.git
 ```
 或查看详细的[插件安装说明](https://docs.langbot.app/plugin/plugin-intro.html#%E6%8F%92%E4%BB%B6%E7%94%A8%E6%B3%95)
 
 ## 使用
+
 
 <!-- 插件开发者自行填写插件使用说明 -->
