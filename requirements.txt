@@ -1,0 +1,6 @@
+qrcode
+imgkit
+markdown
+python-markdown-math
+charset_normalizer
+pygments

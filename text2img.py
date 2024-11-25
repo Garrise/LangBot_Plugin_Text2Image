@@ -9,7 +9,6 @@ import asyncio
 from plugins.LangBot_Plugin_Text2Image.config import Config
 from pkg.core.app import Application
 
-from PIL import Image
 import qrcode
 import imgkit
 import markdown
