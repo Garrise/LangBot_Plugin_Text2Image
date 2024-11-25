@@ -1,4 +1,4 @@
-# HelloPlugin
+# LangBot_Plugin_Text2Image
 
 <!--
 ## 插件开发者详阅
@@ -29,8 +29,8 @@
 -->
 
 ## 介绍
-参考<a href="https://github.com/lss233/chatgpt-mirai-qq-bot">ChatGPT for Bot</a>的文字转图片样式，将LLM回复的消息转变成图片形式输出。
-需要安装<a href="https://wkhtmltopdf.org/">wkhtmltoimage</a>
+参考<a href="https://github.com/lss233/chatgpt-mirai-qq-bot">ChatGPT for Bot</a>的文字转图片样式，将LLM回复的消息转变成图片形式输出。  
+需要安装<a href="https://wkhtmltopdf.org/">wkhtmltoimage</a>。
 
 ## 安装
 
