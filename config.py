@@ -1,6 +1,6 @@
 class Config:
     open: bool = True
-    width: int = 1000
+    width: int = 700
     offset_x: int = 10
     offset_y: int = 10
     font_path: str = "fonts/sarasa-mono-sc-regular.ttf"
