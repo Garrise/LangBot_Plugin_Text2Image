@@ -109,5 +109,6 @@ async def text2img(text):
     finally:
         # 删除临时文件
         if os.path.exists(temp_jpg_filename):
+            print("Find temp file.")
             os.remove(temp_jpg_filename)
     return img_base64
